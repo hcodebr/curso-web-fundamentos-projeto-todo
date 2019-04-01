@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #F2F2F2;
+}
+
+.content-center {
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 15px;
+}
+
+.content-center .text-center {
+    text-align: center;
+}
+
+.content-center img {
+    width: 70%;
+}
+
+.content-center form {
+    margin: 20px;
+}
+
+.content-center input, 
+.content-center button {
+    width: 100%;
+    padding: 10px 5px;
+    border: none;
+    outline: none;
+} 
+
+.content-center input {
+    border-bottom-color: #CCC;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    margin-bottom: 10px; 
+}
+
+.content-center input:focus {
+    border-bottom-color: #D07335;
+}
+
+.content-center button {
+    background-color: #D07335;
+    color: #FFF;
+}
+
+.content-center button:hover {
+    background-color: #B55B28;
+    cursor: pointer;
+}
+
+.content-center button:active {
+    background-color: #C14E0E;
+}
+
+header a {
+    color: #666;
+    text-decoration: none;
+}
+header a:visited {
+    color: #000;
+}
+header a:hover {
+    text-decoration: underline;
+}
+header a:focus {
+    color: red;
+}
+header a:active {
+    color: yellow;
+}
+header h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 50px auto;
+}
+
+footer {
+    font-size: .8em;
+    text-align: center;
+}
+
+.content-tabuada {
+    width: 100%;
+    text-align: center;
+    max-width: 500px;
+    background-color: #FFF;
+    margin: auto;
+    padding: 20px;
+}
+.content-tabuada table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.content-tabuada td {
+    padding: .75rem;
+    border-top: 1px solid #DEE2E6;
+}
+.content-tabuada tbody tr:nth-child(odd) {
+    background-color: rgba(0,0,0,.05);
+}
+.content-tabuada tbody tr:hover {
+    background-color: rgba(0,0,0,.15);
+    cursor: pointer;
+}
+
+#valorA {
+    width: 100%;
+    padding: 10px;
+}
+
+.todo {
+    list-style: none;
+    padding: 0;
+}
+.todo li {
+    padding: 10px;
+    border-bottom: #CCC 1px solid;
+}
+.todo li input {
+    width: initial;
+    margin-right: 10px;
+}
+.todo li.complete {
+    text-decoration: line-through;
+    color: #999;
+    cursor: not-allowed;
+}
+
+.todo button {
+    width: initial;
+    color: #FFF;
+    background-color: red;
+    float: right;
+    min-width: 30px;
+}
+
+#new-task {
+    width: 100%;
+    padding: 10px;
+}
