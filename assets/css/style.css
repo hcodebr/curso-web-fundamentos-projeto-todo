@@ -20,14 +20,6 @@ body {
     text-align: center;
 }
 
-.content-center img {
-    width: 70%;
-}
-
-.content-center form {
-    margin: 20px;
-}
-
 .content-center input, 
 .content-center button {
     width: 100%;
@@ -86,35 +78,6 @@ header h1 {
 footer {
     font-size: .8em;
     text-align: center;
-}
-
-.content-tabuada {
-    width: 100%;
-    text-align: center;
-    max-width: 500px;
-    background-color: #FFF;
-    margin: auto;
-    padding: 20px;
-}
-.content-tabuada table {
-    width: 100%;
-    border-collapse: collapse;
-}
-.content-tabuada td {
-    padding: .75rem;
-    border-top: 1px solid #DEE2E6;
-}
-.content-tabuada tbody tr:nth-child(odd) {
-    background-color: rgba(0,0,0,.05);
-}
-.content-tabuada tbody tr:hover {
-    background-color: rgba(0,0,0,.15);
-    cursor: pointer;
-}
-
-#valorA {
-    width: 100%;
-    padding: 10px;
 }
 
 .todo {
